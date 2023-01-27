@@ -666,6 +666,54 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1590138454}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1758850261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1758850263}
+  - component: {fileID: 1758850262}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1758850262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758850261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b5c0ca50ed3a4393a5ea4fe7d961940, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalPrefabs:
+  - {fileID: 7398756500186119559, guid: 44075cf1f2bd94920ab3bdb99cf54bd2, type: 3}
+  - {fileID: 1846455901607416357, guid: e1a0d7f23def14310a35f467f99392e3, type: 3}
+  - {fileID: 2821268604184440264, guid: 117388b1cf11e417c8bce7b115edfe27, type: 3}
+--- !u!4 &1758850263
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758850261}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.9041135, y: 9.0599165, z: 40.033234}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!850595691 &1868719542
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -738,6 +786,10 @@ PrefabInstance:
     - target: {fileID: 1708635701650378074, guid: 7342b3453acd2473aa1d975bd325e59d, type: 3}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1708635701650378074, guid: 7342b3453acd2473aa1d975bd325e59d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1708635701650378074, guid: 7342b3453acd2473aa1d975bd325e59d, type: 3}
       propertyPath: m_LocalPosition.x
